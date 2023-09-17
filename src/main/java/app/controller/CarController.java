@@ -1,10 +1,10 @@
-package web.controller;
+package app.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import service.CarServiceImpl;
+import app.service.CarServiceImpl;
 
 @Controller
 public class CarController {
